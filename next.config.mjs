@@ -14,10 +14,7 @@ const nextConfig = {
         destination: "/dashboard/default",
         permanent: false,
 
-            reactStrictMode: false,
-  output: 'export',
-  images: {
-    unoptimized: true,
+
       },
     ];
   },
