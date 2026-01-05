@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
-  reactStrictMode: false,
-  output: 'export',
-  images: {
-    unoptimized: true,
+
   
   reactCompiler: true,
   compiler: {
@@ -16,6 +13,11 @@ const nextConfig = {
         source: "/dashboard",
         destination: "/dashboard/default",
         permanent: false,
+
+            reactStrictMode: false,
+  output: 'export',
+  images: {
+    unoptimized: true,
       },
     ];
   },
