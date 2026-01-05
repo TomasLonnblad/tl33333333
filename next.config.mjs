@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
+  reactStrictMode: false,
+  output: 'export',
+  images: {
+    unoptimized: true,
+  
   reactCompiler: true,
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
